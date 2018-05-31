@@ -1,0 +1,219 @@
+@charset "UTF-8";
+html,body {
+	width: 100%;
+	height: 100%;
+	
+}
+#body-login{
+	background-color: /* #00989C */ black;
+	
+}
+#body-flex-login {
+	display: flex;
+	height:100%;
+	 justify-content: center;
+	align-items: center; 
+}
+#container-login{
+	display:block;
+	width: 320px;
+	height: auto;
+	background-color: white;
+	padding: 24px;
+}
+
+#header-top {
+	font-size: 20px;
+	color: #878787;
+}
+.actived{
+	color: #DA7C79;
+}
+ form{
+	margin-top: 50px;
+}
+#container-center-login input[type-submit]{
+	margin: 50px;
+	color: white;
+	font-size: 10px;
+}
+.material-textinput {
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+	margin-top: 20px;
+	
+}
+
+.material-primary-button {
+	height: 38px;
+	border: 0;
+	background-color: #00989C;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.container-signup-form {
+	display: none;
+}
+/*  trang chu*/
+#header {
+	height: 662px;
+	background-image:linear-gradient(rgba(0,0,0,0.42), rgba(0,0,0,0.42)), url("../Image/background_trangchu.jpg") ;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.none_nav {
+	background: none !important;
+	border: none !important;
+}
+
+.navbar-center {
+	margin-left: 20% !important;
+	
+}
+
+.navbar-nav a {
+	color: white !important;
+	font-weight: bolder;
+	font-size: 20px;
+}
+.active >  a {
+	color: black !important;
+	background: none !important;
+}
+
+.open > a{
+	color: black !important;
+	background: none !important;
+}
+.dropdown-menu {
+	background-color: black !important;
+}
+
+.event_header {
+	text-align: center;
+	margin-top: 300px;
+}
+
+.event_header > span {
+	color: white;
+	font-size: 25px;
+}
+
+.event_header > button {
+	color: white;
+	background-color: #00989C ;
+	/* width: 150px;
+	height: 50px; */
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.icon {
+	width: 100px;
+	height: 100px;
+}
+
+#info {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#info > span {
+	margin-top: 20px;
+	
+}
+
+#title-sanpham  {
+	margin-top: 100px;
+	text-align: center;
+	 font-size: 30px; 
+	font-weight: bolder;
+}
+
+.sanpham {
+	margin-top: 45px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding-bottom: 16px;
+}
+.sanpham img {
+	height: 255px;
+}
+
+.gia {
+	font-size: 15px;
+	color: red;
+	margin-bottom: 16px;
+	padding-bottom: 16px;
+}
+
+#footer {
+	
+	margin-top: 42px;
+	background-color: black;
+	color: white;
+	padding: 38px;
+}
+#footer p {
+	text-align: center;
+}
+
+#footer textarea {
+	border: 0px;
+	background-color: #D8D8D8;
+	width: 100%;
+}
+.title-footer {
+	font-size: 32px;
+	font-weight: bolder;
+}
+
+/* them san pham */
+#chitietsanpham{
+	display: none;
+}
+
+.btn-chitiet{
+	display: block;
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.hidden{
+	display: none;
+}
+/* end san pham */
+@media (max-width:575px) {
+	.navbar-center {
+	margin-left: 0 !important;
+	margin-top: 10%;
+	}
+}
+
+@media (min-width:576px) and (max-width:767px){
+	.navbar-center {
+	margin-left: 0 !important;
+	margin-top: 10%;
+	}
+}
+
+@media (min-width:768px) and (max-width:991px) {
+	.navbar-center {
+	margin-left: 5% !important;
+	margin-top: 10%;
+	}
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+}
+
+@media (max-width:575px) {
+}
